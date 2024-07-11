@@ -5,7 +5,7 @@ dotenv.config();
 
 export async function connect() {
     try {
-        const MONGO_URI = 'mongodb://localhost:27017/auth-next-js'
+        const MONGO_URI = 'mongodb+srv://kumarshresth2004:Shresth%40123@cluster0.lly1dz4.mongodb.net/auth-next-js?retryWrites=true&w=majority&appName=Cluster0'
         if (!MONGO_URI) {
             throw new Error("MONGO_URI is not defined");
         }
